@@ -31,8 +31,8 @@ namespace QRScan
                 // Alert com o código escaneado
                 Device.BeginInvokeOnMainThread(() => {
                     //Navigation.PopAsync();
-                    Navigation.PushAsync(new WebViewCode(result.Text));
-                    //DisplayAlert("Código escaneado", result.Text, "OK");
+                    Navigation.PushAsync(new WebViewXam(result.Text));
+                    //Navigation.PushAsync(new WebViewCode(result.Text));
                 });
             };
 

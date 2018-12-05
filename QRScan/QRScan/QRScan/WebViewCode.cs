@@ -13,8 +13,8 @@ namespace QRScan
 		{
 			Content = new StackLayout {
 				Children = {
-					//new Entry { Text = URL }
-					new WebView { Source = URL }
+                    new Entry { Text = URL }
+					//new WebView { Source = URL }
 				}
 			};
 		}
