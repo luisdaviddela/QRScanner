@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QRScan"
+             x:Class="QRScan.RenderWebView">
+    <ContentPage.Content>
+        <local:HybridWebView x:Name="hybridWebView" Uri="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/custom-renderer/hybridwebview"
+          HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+       
+    </ContentPage.Content>
+</ContentPage>
